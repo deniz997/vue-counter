@@ -8,13 +8,12 @@
  */
 import CounterView from "./components/CounterView.vue";
 </script>
-
 <template>
   <main>
     <div class="center-screen">
       <div id="container" class="card">
         <img
-          alt="Vue logo"
+          alt="Siemens energy logo"
           class="logo"
           src="./assets/Siemens-energy-logo.png"
           height="150"
