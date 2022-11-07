@@ -8,7 +8,7 @@ it will update automatically for you, too. To retrieve changes on the api while 
 Polling time interval is set as 0.5 seconds.
 
 ## Config
-This website can consume the api by making requests both on http and websocket. You can select the desired format and the configuration via **.env** file.
+This website can consume the api by making requests both on http and websocket. You can select the desired format and the configuration via **.env** file. If you change the **.env** file, do not forget to re-build the project.
 
 ```
 Example .env file
@@ -32,7 +32,17 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm start
+npm run dev
+```
+
+### Build and Run Project
+To build project
+```sh
+npm run build
+```
+To run the built project
+```sh
+npm run preview
 ```
 
 ## Extras
